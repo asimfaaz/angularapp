@@ -1,0 +1,128 @@
+{
+    "Menu": [
+        {
+            "Key": 1,
+            "ParentKey": null,
+            "Alignment": 1,
+            "Title": "Home",
+            "url": "/home",
+            "Icon": "fas fa-home"
+        }
+    ],
+    "StudioMenu":[
+        {
+            "Key": 1,
+            "ParentKey": null,
+            "Alignment": 1,
+            "Title": "Home",
+            "url": "/home",
+            "Icon": "fas fa-home"
+        }
+    ],
+    "ComponentMenu":[
+        {
+            "Key": 1,
+            "ParentKey": null,
+            "Alignment": 1,
+            "Title": "Home",
+            "url": "/Components",
+            "Icon": "fas fa-home"
+        },
+        {
+            "Key": 1,
+            "ParentKey": null,
+            "Alignment": 1,
+            "Title": "Grid",
+            "url": "/Components/grid",
+            "Icon": "fas fa-th"
+        },
+        {
+            "Key": 1,
+            "ParentKey": null,
+            "Alignment": 1,
+            "Title": "Timeline",
+            "url": "/Components/Timeline",
+            "Icon": "fas fa-stream"
+        },
+        {
+            "Key": 1,
+            "ParentKey": null,
+            "Alignment": 1,
+            "Title": "Chat",
+            "url": "/Components/Chat",
+            "Icon": "fas fa-comments"
+        },
+        {
+            "Key": 1,
+            "ParentKey": null,
+            "Alignment": 1,
+            "Title": "Group",
+            "url": "/Components/group",
+            "Icon": "fas fa-layer-group"
+        },
+        {
+            "Key": 1,
+            "ParentKey": null,
+            "Alignment": 1,
+            "Title": "Header",
+            "url": "/Components/header",
+            "Icon": "fas fa-heading"
+        },
+        {
+            "Key": 1,
+            "ParentKey": null,
+            "Alignment": 1,
+            "Title": "InfoBox",
+            "url": "/Components/InfoBox",
+            "Icon": "fas fa-info"
+        },
+        {
+            "Key": 1,
+            "ParentKey": null,
+            "Alignment": 1,
+            "Title": "Tile",
+            "url": "/Components/Tile",
+            "Icon": "fas fa-square"
+        },
+        {
+            "Key": 1,
+            "ParentKey": null,
+            "Alignment": 1,
+            "Title": "Pagination",
+            "url": "/Components/pagination",
+            "Icon": "tabler-ti ti-keyframe-align-horizontal"
+        },
+        {
+            "Key": 1,
+            "ParentKey": null,
+            "Alignment": 1,
+            "Title": "Condition",
+            "url": "/Components/condition",
+            "Icon": "tabler ti ti-affiliate"
+        },
+        {
+            "Key": 1,
+            "ParentKey": null,
+            "Alignment": 1,
+            "Title": "Multiple Filter",
+            "url": "/Components/MultipleFilter",
+            "Icon": "tabler ti ti-filter-search"
+        },
+        {
+            "Key": 1,
+            "ParentKey": null,
+            "Alignment": 1,
+            "Title": "Profile Search",
+            "url": "/Components/ProfileSearch",
+            "Icon": "tabler ti ti-user-search"
+        },
+        {
+            "Key": 1,
+            "ParentKey": null,
+            "Alignment": 1,
+            "Title": "Workflow",
+            "url": "/Components/Workflow",
+            "Icon": "la la-fast-forward"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+  "ServerUrl": "https://dev-apps4x-framework.azurewebsites.net/",
+  "Apps4xUrl": "https://dev-apps4x-framework.azurewebsites.net/",
+  "isActiveDirectoryLogin": true,
+  "ActiveDirectoryLoginAuthority": "https://login.microsoftonline.com/c6b1ac0e-5df5-4217-bdaa-74907635958f/oauth2/token",
+  "ActiveDirectoryLoginClientId": "c6f2ff14-0998-4294-a21b-ea8581c27d7f",
+  "ActiveDirectoryLoginRedirectUri": "https://dev-apps4x.web.app/",
+  "IsMaintenance": false,
+  "Apps4xsqlConnector": "",
+  "theme": "",
+  "azureBlobBaseurl":"https://ftsattachmentandlogs.blob.core.windows.net/",
+  "azureBlobSasToken":"sp=racwdli&st=2025-07-16T06:22:41Z&se=2026-07-20T14:37:41Z&spr=https&sv=2024-11-04&sr=c&sig=djfw4M3UnfD0cYyIzTW6o4ehW2B0moNKz40URguc%2FqI%3D"
+  }

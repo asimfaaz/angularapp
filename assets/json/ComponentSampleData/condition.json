@@ -1,0 +1,58 @@
+{
+    "Data":{
+        "Condition": [
+            {
+                "ConditionElement": {
+                    "FieldType": "FieldValue",
+                    "Field": "Field1",
+                    "Type": "Contains",
+                    "ValueType": "Value",
+                    "Value": "1"
+                },
+                "Type": "Condition"
+            },
+            {
+                "ConditionElement": {
+                    "FieldType": "Value",
+                    "Field": "TestField",
+                    "Type": "Equals",
+                    "ValueType": "Value",
+                    "Value": "Field"
+                },
+                "Type": "Condition"
+            },
+            {
+                "Group": [
+                    {
+                        "Condition": [
+                            {
+                                "ConditionElement": {
+                                    "FieldType": "FieldValue",
+                                    "Field": "Field3",
+                                    "Type": "GreaterThan",
+                                    "ValueType": "FieldValue",
+                                    "Value": "Field1"
+                                },
+                                "Type": "Condition"
+                            },
+                            {
+                                "ConditionElement": {
+                                    "FieldType": "Value",
+                                    "Field": "TestValue",
+                                    "Type": "IsNull",
+                                    "ValueType": "",
+                                    "Value": ""
+                                },
+                                "Type": "Condition"
+                            }
+                        ],
+                        "ConditionOperator": 2
+                    }
+                ],
+                "ConditionElement": null,
+                "Type": "Group"
+            }
+        ],
+        "ConditionOperator": 1
+      }
+}

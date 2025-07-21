@@ -1,0 +1,14 @@
+{
+    "Data":{
+        "Id": 1,
+        "Name": "TestCustomer",
+        "Description": "TestCustomer",
+        "TableName": "TestCustomer",
+        "Type": "Single",
+        "IsWorkFlow": null,
+        "TypeName": "Basic",
+        "Status": "Draft",
+        "Version": 1,
+        "Password":"123456"
+      }
+}

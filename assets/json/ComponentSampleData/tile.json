@@ -1,0 +1,71 @@
+{
+    "Data": {
+      "SmallTiles": [
+        {
+          "Title": "Title 1",
+          "Type": "Small",
+          "Image": "https://cdn-icons-png.flaticon.com/128/6470/6470993.png",
+          "URL": null
+        }
+      ],
+      "MediumTiles": [
+        {
+          "Title": "Tile With Action",
+          "Type": "Medium",
+          "Image": "https://cdn-icons-png.flaticon.com/128/5368/5368372.png",
+          "URL": null,
+          "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae porta ex.",
+          "Actions": [
+            {
+              "Icon": "fas fa-pen",
+              "Name": "Edit",
+              "isShowName": false
+            }
+          ]
+        },
+        {
+          "Title": "Tile With Actions & Names",
+          "Type": "Medium",
+          "Image": "https://cdn-icons-png.flaticon.com/128/11602/11602826.png",
+          "URL": null,
+          "Description": "Fusce commodo massa id enim mattis porta.",
+          "Actions": [
+            {
+              "Icon": "fas fa-pen",
+              "Name": "Edit",
+              "isShowName": true
+            },
+            {
+              "Icon": "fas fa-user-lock",
+              "Name": "Permission",
+              "isShowName": true
+            }
+          ]
+        },
+        {
+          "Title": "Tile With Child",
+          "Type": "Medium",
+          "Image": "https://cdn-icons-png.flaticon.com/128/14991/14991739.png",
+          "URL": null,
+          "Description": "Maecenas tincidunt odio sed ipsum pellentesque rhoncus. Donec cursus a arcu in pharetra.",
+          "Child": [
+            {
+              "Title": "Child 1",
+              "Type": "Medium",
+              "Image": "https://cdn-icons-png.flaticon.com/128/14991/14991739.png",
+              "URL": null,
+              "Description": "Maecenas tincidunt odio sed ipsum pellentesque rhoncus."
+            },
+            {
+              "Title": "Child 2",
+              "Type": "Medium",
+              "Image": "https://cdn-icons-png.flaticon.com/128/14991/14991739.png",
+              "URL": null,
+              "Description": "Donec cursus a arcu in pharetra."
+            }
+          ]
+        }
+      ]
+    }
+  }
+  

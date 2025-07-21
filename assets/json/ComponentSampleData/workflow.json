@@ -1,0 +1,185 @@
+{
+  "Data":[
+      {
+          "Stage":"New",
+          "stageId":1,
+          "Actions":[
+              {
+                  "ActionId":"A001",
+                  "ActionName":"InProgress"
+              },
+              {
+                  "ActionId":"A002",
+                  "ActionName":"Cancel"  
+              }
+          ],
+"IsHappened": true,
+"IsCompleted": true,
+"IsCurrent": 2,
+"StageStatus": 1,
+"IsEnding": null,
+          "order":2,
+          "count":20
+      },
+      {
+          "Stage":"InProgress",
+          "stageId":2,
+          "Actions":[
+              {
+                  "ActionId":"A001",
+                  "ActionName":"Approved"
+              }
+          ],
+          "IsHappened": true,
+"IsCompleted": false,
+"IsCurrent": 2,
+"StageStatus": 0,
+"IsEnding": null,
+          "order":3,
+          "count":10
+      },
+      {
+          "Stage":"Pending",
+          "stageId":-2,
+          "Actions":[
+              {
+                  "ActionId":"A001",
+                  "ActionName":"New"
+              }
+          ],
+          "order":1,
+          "count":5,            
+"IsHappened": false,
+"IsCompleted": false,
+"IsCurrent": 0,
+"StageStatus": 0,
+"IsEnding": null
+      }
+  ],
+  "NewData":[
+          {
+            "IsHappened": true,
+            "IsCompleted": true,
+            "CurrentStageId": 40,
+            "StageStatus": 10,
+            "ProcessId": 100000,
+            "WorkflowProcessRecId": null,
+            "StageId": 20,
+            "StageDescription": "Approval",
+            "StageDescriptionAr": "Approval",
+            "Count": null,
+            "Order": 10,
+            "Actions": [
+              {
+                "ActionName": "Complete",
+                "Action": 10,
+                "ActionRecId": 19
+              },
+              {
+                "ActionName": "Reject",
+                "Action": 20,
+                "ActionRecId": 147
+              },
+              {
+                "ActionName": "Escape",
+                "Action": 30,
+                "ActionRecId": 273
+              }
+            ]
+          },
+          {
+              "IsHappened": true,
+              "IsCompleted": true,
+            "CurrentStageId": 40,
+            "StageStatus": 10,
+            "ProcessId": 100000,
+            "WorkflowProcessRecId": null,
+            "StageId": 30,
+            "StageRecId": 10051,
+            "StageDescription": "Customer Approval",
+            "StageDescriptionAr": "Customer Approval",
+            "Count": null,
+            "Order": 20,
+            "Actions": [
+              {
+                "ActionName": "Reject",
+                "Action": 20,
+                "ActionRecId": 285
+              },
+              {
+                "ActionName": "Complete",
+                "Action": 10,
+                "ActionRecId": 503
+              }
+            ]
+          },
+          {
+              "IsHappened": true,
+              "IsCompleted": true,
+            "CurrentStageId": 40,
+            "StageStatus": 10,
+            "ProcessId": 100000,
+            "WorkflowProcessRecId": null,
+            "StageId": 40,
+            "StageRecId": 10063,
+            "StageDescription": "Under Processing",
+            "StageDescriptionAr": "Under Processing",
+            "Count": null,
+            "Order": 30,
+            "Actions": [
+              {
+                "ActionName": "Reject",
+                "Action": 20,
+                "ActionRecId": 274
+              },
+              {
+                "ActionName": "Complete",
+                "Action": 10,
+                "ActionRecId": 283
+              }
+            ]
+          },
+          {
+            "IsHappened": false,
+            "IsCompleted": false,
+            "CurrentStageId": 0,
+            "StageStatus": 0,
+            "ProcessId": 100000,
+            "WorkflowProcessRecId": null,
+            "StageId": 42,
+            "StageRecId": 10379,
+            "StageDescription": "SettlementOnHold",
+            "StageDescriptionAr": "SettlementOnHold",
+            "Count": null,
+            "Order": 32,
+            "Actions": [
+              {
+                "ActionName": "Complete",
+                "Action": 10,
+                "ActionRecId": 505
+              }
+            ]
+          },
+          {
+            "IsHappened": false,
+            "IsCompleted": false,
+            "CurrentStageId": 0,
+            "StageStatus": 0,
+            "ProcessId": 100000,
+            "WorkflowProcessRecId": null,
+            "StageId": 44,
+            "StageRecId": 10380,
+            "StageDescription": "SettlementPayment",
+            "StageDescriptionAr": "SettlementPayment",
+            "Count": null,
+            "Order": 34,
+            "Actions": [
+              {
+                "ActionName": "Complete",
+                "Action": 10,
+                "ActionRecId": 507
+              }
+            ]
+          }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+    "Data":[
+        {
+            "EntityId_Desc": "TestCustomer",
+            "EntityId": "ETN0000064",
+            "CreatedDatetime": "2024-12-12T08:45:14.747",
+            "CreatedBy": "a.hyder",
+            "ModifiedDatetime": "2024-12-13T13:49:38.597",
+            "ModifiedBy": "a.hyder",
+            "RecId": 1,
+            "RecVersion": "AAAAAAABDBg=",
+            "DataAreaId": "LGE0000001",
+            "MetaObject": "{\"CreatedVersion\":1.0,\"UpdatedVersion\":1.000}",
+            "Name": "test",
+            "Description": "certificate",
+            "role": "Admin",
+            "email": "alice.johnson@example.com",
+            "type": "one",
+            "jobName": "House Worker",
+            "type_Desc": "one",
+            "type_DescAr": "one"
+        },
+        {
+            "EntityId_Desc": "TestCustomer",
+            "EntityId": "ETN0000064",
+            "CreatedDatetime": "2024-12-12T14:48:48.877",
+            "CreatedBy": "a.hyder",
+            "ModifiedDatetime": null,
+            "ModifiedBy": null,
+            "RecId": 2,
+            "RecVersion": "AAAAAAABBvY=",
+            "DataAreaId": "LGE0000001",
+            "MetaObject": "{\"CreatedVersion\":1.000,\"UpdatedVersion\":0}",
+            "Name": "test2",
+            "Description": "certificate2",
+            "role": "Viewer",
+            "email": "jane.smith@example.com",
+            "type": "two",
+            "jobName": "House Worker",
+            "type_Desc": null,
+            "type_DescAr": null
+        }
+        ]
+    }

@@ -1,0 +1,58 @@
+{
+    "Data":       
+    {
+        "Infobox": [
+          {
+            "Title": "Info",
+            "Type": "info",
+            "Icon": "tabler ti ti-info-circle-filled",
+            "Message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies et mi vitae dictum. Ut nulla est"
+          },
+          {
+            "Title": "DangerInfo",
+            "Type": "danger",
+            "Icon": "tabler ti ti-info-circle-filled",
+            "Message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies et mi vitae dictum. Ut nulla est"
+          },
+          {
+            "Title": "SuccessInfo",
+            "Type": "success",
+            "Icon": "tabler ti ti-info-circle-filled",
+            "Message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies et mi vitae dictum. Ut nulla est"
+          },
+          {
+            "Title": "WarningInfo",
+            "Type": "warning",
+            "Icon": "tabler ti ti-info-circle-filled",
+            "Message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies et mi vitae dictum. Ut nulla est"
+          }
+        ],
+        "DarkInfobox": [
+          {
+            "Title": "Dark-Info",
+            "Type": "info dark-mode",
+            "Icon": "tabler ti ti-info-circle-filled",
+            "Message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies et mi vitae dictum. Ut nulla est"
+          },
+          {
+            "Title": "Dark-DangerInfo",
+            "Type": "danger dark-mode",
+            "Icon": "tabler ti ti-info-circle-filled",
+            "Message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies et mi vitae dictum. Ut nulla est"
+          },
+          {
+            "Title": "Dark-SuccessInfo",
+            "Type": "success dark-mode",
+            "Icon": "tabler ti ti-info-circle-filled",
+            "Message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies et mi vitae dictum. Ut nulla est"
+          },
+          {
+            "Title": "Dark-WarningInfo",
+            "Type": "warning dark-mode",
+            "Icon": "tabler ti ti-info-circle-filled",
+            "Message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies et mi vitae dictum. Ut nulla est"
+          }
+        ]
+      }
+  }
+  
